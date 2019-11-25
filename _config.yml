@@ -12,7 +12,7 @@ github_repo: "https://github.com/chenlocus/chenlocus.github.io.git" # you code r
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "年纪越来越大，才逐步感悟什么叫做境由心生!"
-sidebar-avatar: /img/about-BY-gentle.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/about_me.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
