@@ -5,7 +5,7 @@ header-img: img/post-bg-desk.jpg
 #email: chenlocus@gmail.com
 description: "Life is a choice inside you, whatever it looks like."
 keyword: "澳洲生活，墨尔本，区块链，加密货币"
-url: "https://chenlocus.github.io"          # your host, for absolute URL
+url: "https://livinginau.life"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/chenlocus/chenlocus.github.io.git" # you code repository
 
