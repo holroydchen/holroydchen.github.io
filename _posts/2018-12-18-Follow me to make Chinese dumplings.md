@@ -101,7 +101,7 @@ step six: prepare a bowl of water and begin our process to make dumplings. sprea
 
 
 
-![IMG_20180222_125724_HDR.jpg](https://steemitimages.com/DQmaP7vXzJcRPLZJU3hRN5Gv7xDz3dYyuC1eQkpfWxzdpWk/IMG_20180222_125724_HDR.jpg
+![IMG_20180222_125724_HDR.jpg](https://steemitimages.com/DQmaP7vXzJcRPLZJU3hRN5Gv7xDz3dYyuC1eQkpfWxzdpWk/IMG_20180222_125724_HDR.jpg)
 
 
 
@@ -117,7 +117,7 @@ Step seven:  put a chunk of meat mixture in the middle of the dumpling skin, the
 
 
 
-https://www.youtube.com/watch?v=Aq2wk-7UvNg
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Aq2wk-7UvNg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 
