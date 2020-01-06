@@ -25,7 +25,7 @@ Updated 2017/9/2:  VM ware with ubuntu 16.4 is too slow and unacceptable, I trie
 There are many bloggers who made comparsion between different virual machine softwares without really experience them. So be cautious about them.
 
 
-More technical articles on ubundu，python，aws，data analysis: 
+Related topics: 
 
 - [Solve a DNS issue in Ubundu VM](http://engineerman.club/2019/01/20/Solve-a-DNS-issue-in-Ubundu-VM/)
 - 
