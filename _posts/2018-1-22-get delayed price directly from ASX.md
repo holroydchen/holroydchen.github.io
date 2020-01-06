@@ -1,0 +1,26 @@
+---
+layout:     post
+title:      get delayed price directly from ASX
+subtitle:   
+date:       2018-1-22
+author:     Howard
+header-img: img/post-bg-unix-linux.jpg
+catalog: true
+tags:
+    - engineer
+    - python
+    - pandas
+    - data
+---
+
+
+I has ceased the market data service for now. However, ASX does has free API to obtain delayed realtime price.
+
+
+e.g.
+
+https://www.asx.com.au/asx/1/share/Z1P
+
+result:
+
+{"code":"Z1P","isin_code":"AU000000Z1P6","desc_full":"Ordinary Fully Paid","last_price":0.967,"open_price":0.96,"day_high_price":0.975,"day_low_price":0.96,"change_price":0.002,"change_in_percent":"0.207%","volume":168651,"bid_price":0.965,"offer_price":0.97,"previous_close_price":0.965,"previous_day_percentage_change":"0.521%","year_high_price":1.34,"last_trade_date":"2018-11-26T00:00:00+1100","year_high_date":"2018-02-01T00:00:00+1100","year_low_price":0.635,"year_low_date":"2017-12-21T00:00:00+1100","year_open_price":0.02438,"year_open_date":"2014-02-28T11:00:00+1100","year_change_price":0.94262,"year_change_in_percentage":"3,866.366%","pe":0,"eps":-0.0784,"average_daily_volume":758458,"annual_dividend_yield":0,"market_cap":290215070,"number_of_shares":300741005,"deprecated_market_cap":290215000,"deprecated_number_of_shares":300741005,"suspended":false}
