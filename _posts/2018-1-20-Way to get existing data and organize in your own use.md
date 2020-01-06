@@ -32,3 +32,8 @@ As an individual investor in Australia stock market who want to establish your o
    7. [Use winSCP to download/upload your program with aws.](http://engineerman.club/2018/11/16/How-to-access-the-EC2-instance-in-AWS/)
 
    8. [Configure crontab in aws to keep your historical data up to date.](http://engineerman.club/2018/11/16/Schedule-regular-tasks-in-AWS/)
+
+
+Related topic:
+
+- [An Alternative to Yahoo Finance API in Australian Share Market](http://engineerman.club/2018/01/18/An-Alternative-to-Yahoo-Finance-API-in-Australian-Share-Market/)
