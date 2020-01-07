@@ -56,3 +56,19 @@ I didn't do much research on the third group, since it depends on how many peopl
 > Steem Dollars are created by a mechanism similar to convertible notes, The terms of the convertible note allow the holder to convert to the backing token with a minimum notice at the fair market price of the token.
 
 SBD to steem is a  debt-to-ownership and the steem system automatically balance their ratio by conversion each other.  Also the system claims to have reliable price feed and adjust interest to SBD holders to maintain the 1:1 pegged relationship with USD. However, the history proved this is not working at all. Anyway the SBD is a reliable indicator of bullish or bearish of crypto market.
+
+
+
+
+Related topics:
+
+
+- [Using smart contract to kick off OTC platform](http://engineerman.club/2018/12/30/Using-smart-contract-to-kick-off-OTC-platform/)
+
+- [cryptocurrency exchanges integration trading system](http://engineerman.club/2018/12/06/cryptocurrency-exchanges-integration-trading-system/)
+
+- [Stable Coins](http://engineerman.club/2018/12/06/Stable-Coins/)
+
+- [Decentralized Trading System for people to trade crypto without account](http://engineerman.club/2018/12/06/Decentralized-Trading-System-for-people-to-trade-crypto-without-account/)
+
+- [comparison several crypto exchanges according to my own experience](http://engineerman.club/2017/12/05/comparison-several-crypto-exchanges-according-to-my-own-experience/)

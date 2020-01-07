@@ -56,3 +56,18 @@ In summary, for a cryptocurrency exchanges integrated trading system, none is be
 
 
 BTW, during the process of building up this exchanges market data integration system, I found STEEM is not listed in most exchanges:(
+
+
+
+Related topics:
+
+
+- [Using smart contract to kick off OTC platform](http://engineerman.club/2018/12/30/Using-smart-contract-to-kick-off-OTC-platform/)
+
+- [cryptocurrency exchanges integration trading system](http://engineerman.club/2018/12/06/cryptocurrency-exchanges-integration-trading-system/)
+
+- [Stable Coins](http://engineerman.club/2018/12/06/Stable-Coins/)
+
+- [Decentralized Trading System for people to trade crypto without account](http://engineerman.club/2018/12/06/Decentralized-Trading-System-for-people-to-trade-crypto-without-account/)
+
+- [comparison several crypto exchanges according to my own experience](http://engineerman.club/2017/12/05/comparison-several-crypto-exchanges-according-to-my-own-experience/)

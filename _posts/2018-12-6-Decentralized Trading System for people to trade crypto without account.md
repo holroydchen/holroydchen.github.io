@@ -51,3 +51,19 @@ Incentives:
 - 'DCI' is produced in the way only when a transaction happens after the system launches;
 - when a transaction is completed,  there will be commission fee debited from users, this fee will be kept in the smart contract and send to 'DCI' holders regularly;
 - 'DCI' holders are responsible for the vote for proposals such as proportion rewarded to brokers and how smart contract should work to maintain the community,  what stable coins should be included in the system.
+
+
+
+
+Related topics:
+
+
+- [Using smart contract to kick off OTC platform](http://engineerman.club/2018/12/30/Using-smart-contract-to-kick-off-OTC-platform/)
+
+- [cryptocurrency exchanges integration trading system](http://engineerman.club/2018/12/06/cryptocurrency-exchanges-integration-trading-system/)
+
+- [Stable Coins](http://engineerman.club/2018/12/06/Stable-Coins/)
+
+- [Decentralized Trading System for people to trade crypto without account](http://engineerman.club/2018/12/06/Decentralized-Trading-System-for-people-to-trade-crypto-without-account/)
+
+- [comparison several crypto exchanges according to my own experience](http://engineerman.club/2017/12/05/comparison-several-crypto-exchanges-according-to-my-own-experience/)

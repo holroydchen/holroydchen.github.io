@@ -44,3 +44,17 @@ The next step, after the ICO gets finished,  all contributors get their ‘docco
 
 
 At the end of this post, I would raise my concerns about future of Steem after EOS launches next year, people may build up a similar system like steem upon the EOS to achieve the same performance.
+
+
+
+Related topics:
+
+
+- [learn from Magic Wallet to implement the exchange between bitUSD and USD(学习鼓鼓钱包实现法币和比特美元兑换)
+](http://engineerman.club/2018/12/05/learn-from-Magic-Wallet-to-implement-the-exchange-between-bitUSD-and-USD/)
+
+- [Steem ranks second by China Ministry of Industry and Information](http://engineerman.club/2018/12/05/Steem-ranks-second-by-China-Ministry-of-Industry-and-Information/)
+
+- [How to prevent DPOS being abused](http://engineerman.club/2018/12/05/How-to-prevent-DPOS-being-abused/)
+
+- [What can SMTs do to encourage documentation for a company and my questions](http://engineerman.club/2018/10/20/SMTs-do-to-encourage-documentation/)

@@ -48,3 +48,21 @@ Step four, after the rice mixture is ready, put the sliced Chinese cabbage into 
 第四步，把青菜放油锅里炒一炒，等饭烧好了，把青菜倒进去，再焖上十分钟。菜肉饭就算全部做好了。
 
 ![](https://steemitimages.com/DQmYcaf2r6uxYGz7sVDHMXkQcBJg62YQhCmiYCHJaLzZCui/image.png)
+
+
+
+
+Related topics:
+
+
+- [Follow me to cook fried new year cake]http://engineerman.club/2018/12/19/Follow-me-to-cook-fried-new-year-cake/)
+
+- [Follow me to make tomato egg fried noodle](http://engineerman.club/2018/12/18/Follow-me-to-make-tomato-egg-fried-noodle/)
+
+- [Follow me to make meat-vegetable rice](http://engineerman.club/2018/12/18/Follow-me-to-make-meat-vegetable-rice/)
+
+- [Follow me to make egg noodle(跟我一起做荷包蛋面)](http://engineerman.club/2018/12/18/Follow-me-to-make-egg-noodle(%E8%B7%9F%E6%88%91%E4%B8%80%E8%B5%B7%E5%81%9A%E8%8D%B7%E5%8C%85%E8%9B%8B%E9%9D%A2)/)
+
+- [Follow me to make Chinese dumplings](http://engineerman.club/2018/12/18/Follow-me-to-make-Chinese-dumplings/)
+
+- [Follow me to cook crab noodle(跟我一起做螃蟹面)](http://engineerman.club/2018/12/18/Follow-me-to-cook-crab-noodle(%E8%B7%9F%E6%88%91%E4%B8%80%E8%B5%B7%E5%81%9A%E8%9E%83%E8%9F%B9%E9%9D%A2)/)

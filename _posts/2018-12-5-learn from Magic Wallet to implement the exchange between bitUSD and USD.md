@@ -93,3 +93,17 @@ A decentralized system is in great need so that every people can become a broker
 
 
 所以说，比特股钱包非常需要这样一个去中心化系统，每个人都能申请做承销商，帮助他人对法币和内盘美元兑换，这样不但有更多人可以有业务收入，而且能帮助比特股钱包引入更多流动性。
+
+
+
+Related topics:
+
+
+- [learn from Magic Wallet to implement the exchange between bitUSD and USD(学习鼓鼓钱包实现法币和比特美元兑换)
+](http://engineerman.club/2018/12/05/learn-from-Magic-Wallet-to-implement-the-exchange-between-bitUSD-and-USD/)
+
+- [Steem ranks second by China Ministry of Industry and Information](http://engineerman.club/2018/12/05/Steem-ranks-second-by-China-Ministry-of-Industry-and-Information/)
+
+- [How to prevent DPOS being abused](http://engineerman.club/2018/12/05/How-to-prevent-DPOS-being-abused/)
+
+- [What can SMTs do to encourage documentation for a company and my questions](http://engineerman.club/2018/10/20/SMTs-do-to-encourage-documentation/)

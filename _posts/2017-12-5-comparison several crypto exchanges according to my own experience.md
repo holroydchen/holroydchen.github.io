@@ -60,3 +60,5 @@ Related topics:
 - [Stable Coins](http://engineerman.club/2018/12/06/Stable-Coins/)
 
 - [Decentralized Trading System for people to trade crypto without account](http://engineerman.club/2018/12/06/Decentralized-Trading-System-for-people-to-trade-crypto-without-account/)
+
+- [comparison several crypto exchanges according to my own experience](http://engineerman.club/2017/12/05/comparison-several-crypto-exchanges-according-to-my-own-experience/)

@@ -72,3 +72,18 @@ With the above two solutions, EOS token's function may be reduced too much and n
 
 
 I hope @dan can notice this post by chance and reconsider the implementation of DPOS to the coming EOS.io software.  
+
+
+
+
+Related topics:
+
+
+- [learn from Magic Wallet to implement the exchange between bitUSD and USD(学习鼓鼓钱包实现法币和比特美元兑换)
+](http://engineerman.club/2018/12/05/learn-from-Magic-Wallet-to-implement-the-exchange-between-bitUSD-and-USD/)
+
+- [Steem ranks second by China Ministry of Industry and Information](http://engineerman.club/2018/12/05/Steem-ranks-second-by-China-Ministry-of-Industry-and-Information/)
+
+- [How to prevent DPOS being abused](http://engineerman.club/2018/12/05/How-to-prevent-DPOS-being-abused/)
+
+- [What can SMTs do to encourage documentation for a company and my questions](http://engineerman.club/2018/10/20/SMTs-do-to-encourage-documentation/)
