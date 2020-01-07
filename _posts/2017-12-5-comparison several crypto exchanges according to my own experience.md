@@ -8,6 +8,7 @@ header-img: img/post_blockchain.jpg
 catalog: true
 tags:
     - blockchain
+    - cryptocurrency
 ---
 
 
@@ -45,3 +46,17 @@ This is a comparison with several 'huge' exchanges in an Australian website for 
 update: I have been using indepentreserve for a while and it is very good and worth recommendation:
 
 https://www.independentreserve.com?invite=KHJGHV
+
+
+
+
+Related topics:
+
+
+- [Using smart contract to kick off OTC platform](http://engineerman.club/2018/12/30/Using-smart-contract-to-kick-off-OTC-platform/)
+
+- [cryptocurrency exchanges integration trading system](http://engineerman.club/2018/12/06/cryptocurrency-exchanges-integration-trading-system/)
+
+- [Stable Coins](http://engineerman.club/2018/12/06/Stable-Coins/)
+
+- [Decentralized Trading System for people to trade crypto without account](http://engineerman.club/2018/12/06/Decentralized-Trading-System-for-people-to-trade-crypto-without-account/)
