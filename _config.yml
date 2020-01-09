@@ -96,14 +96,13 @@ service-worker: true
 
 
 
-Friends
 friends: [
     {
-        title: "English blog",
-        href: "http://Engineerman.club"
+        title: "中文博客",
+        href: "http://livinginau.life"
     },
     {
-        title: "加密货币交易所价格集成查看",
-        href: "http://cryptodepth.engineerman.club/"
+        title: "Cryptocurrency price integration",
+        href: "http://cryptodepth.engineerman.club"
     }
 ]
