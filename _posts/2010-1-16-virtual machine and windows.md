@@ -2,7 +2,7 @@
 layout:     post
 title:      virtual machine and windows combination
 subtitle:   
-date:       2010-1-16
+date:       2019-1-16
 author:     Howard
 header-img: img/post_fly_to_au.jpg
 catalog: true

@@ -2,7 +2,7 @@
 layout:     post
 title:      using financial data to analyze Australian share market with help of python/pandas
 subtitle:   
-date:       2018-1-16
+date:       2019-1-16
 author:     Howard
 header-img: img/post-bg-unix-linux.jpg
 catalog: true
