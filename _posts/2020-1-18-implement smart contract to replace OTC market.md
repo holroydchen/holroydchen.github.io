@@ -2,7 +2,7 @@
 layout:     post
 title:      Implement Smart Contract to replace OTC market
 subtitle:   
-date:       2020-1-9
+date:       2020-1-18
 author:     Howard Chen
 header-img: img/post_smart_contract.jpg
 catalog: true
