@@ -37,126 +37,110 @@ The key part of this agent contract is to manipulate the stable coin contract. I
 
 
 
-Buyers need to call the function 'buyOrderSent' in the agent contract，a certain amount of stable coins will be deposited in the contract, meanwhile it is needed to take down buyers' deposit information in `_deposit[msg.sender]` in the contract code, otherwise, 这个合约很容易被别人一分钱不花就黑掉，这个我将在下文介绍如何黑它的几个途径，我又如何防范。 当买单被确认收到货物（或数字货币）后，'buyOrderConfirmed'被调用，中介合约把钱转给卖家，同时更新_deposit变量，题外话一下，很多人说usdt是免费的，其实不然，它会偷偷给你收费的。 关于卖单处理，也是大同小异，再说就嫌烦了，比如我们部分有个人，我就不敢问他问题，他说起来滔滔不绝，最低消费半小时，听到我想吐，是真的想吐，于是理解了‘大话西游’里唐僧的感受。 
+Buyers need to call the function 'buyOrderSent' in the agent contract，a certain amount of stable coins will be deposited in the contract, meanwhile it is needed to take down buyers' deposit information in `_deposit[msg.sender]` in the contract code, otherwise, this contract is easy to be hacked and money gets lost. I will discuss about ways how to hack a contrac and how to prevent it. 
+
+
+
+After the buyer confirms he or she has received the cryptocurrency, 'buyOrderConfirmed' will be called so that the agent contract can transfer stable coins to the sellers. Meanwhile the variable `_deposit[msg.sender]` will be updated. BTW, someone said USDT is free to use, but actuallly not, it can charge you a little bit in the contract. It is the same mechanism in the sellers' orders treatment. You will feel I am too annoying if I repeat it. 
+
+
+
+I have completed those headache theories, now we are going to do it step by step. We need to start from installations from scratch (start with a computer with only OS, mine is windows ) in order to compile, deploy and verify this smart contract. 
 
 
 
 
-
-有些费脑筋的原理部分介绍完了，简单不？ 接下来就落入俗套的分步进行式了。 要编译，部署和测试这个智能合约，我们从一个仅带操作系统的机器开始安装。
-
+Step 1: we need to install [nodejs](https://nodejs.org/en/)，since all the compilation, debug and deployment, even test depend on [Truffle Framework](https://www.trufflesuite.com/docs)，and the Truffle Framework relies on nodejs.
 
 
 
-第一步，要安装[nodejs](https://nodejs.org/en/)，因为整个编译，调试和部署，甚至测试平台基于[Truffle框架](https://www.trufflesuite.com/docs)，而truffle框架安装需要nodejs；
+Step 2: install truffle framework, npm install -g truffle.
+
+
+Step 3: install [ganache](https://www.trufflesuite.com/ganache)，which is a simulator of Ethereum blockchain. After installation，it will allocate 10 accounts with enough eth for you to play with. You can also deploy to EtH mainnet of testnet via MetaMask，but the mainnet is slow and cost you money and the testnet gives you too little eth to play. Then press “quick start”，and you will be given 10 accounts with 100 eth in each. 
 
 
 
-第二步，安装truffle框架，npm install -g truffle；
+Off course, you can select not to use ganache, Truffle framework has a native Ethereum mock called 'Truffle Develop'.
 
 
 
-第三步，安装[ganache](https://www.trufflesuite.com/ganache)，这就是一个以太坊区块链模拟器，安装后，上面会自动给你分配十个账号，有足够多钱供你玩，当然，你也可以通过MetaMask发布到以太坊主网或者测试网去，那不是速度慢吗，主网不是要烧钱吗？测试网给的银子也少。 按下“quick start”，一键到位，它会给你创建10个账号，每个账号100个以太坊，够你玩的了吧。
+Step 4: install openzeppelin， it has changed somehow especially to windows. I didn't come across this several months ago. Now you need to go to [github的openzeppelin](https://github.com/OpenZeppelin/openzeppelin-contracts)，download and unzip openzeppelin-solidity， then you need to create a fold called 'node_modules' and put the unzipped openzeppelin there, then add the fold's directory to windows path environment variables.
 
 
 
-当然，你也可以不安装ganache，Truffle框架自带了一个叫做’Truffle Develop‘的以太坊区块链模拟器。
+Step 5: compile these two smart contracts, go to the root of both stable coin contract and agent contract, then execute:
+
+​    `truffle compile`
+
+This is to convert .sol file to byte code and ABI (Application Binary Interface), the version of the compiler can be configurable in truffle-config.js.
 
 
+After compilation, we need to deploy the contract to a blockchain which is determinied by truffle-config.js, I deployed to ganache.
 
 
-
-
-第四步，安装openzeppelin模块， 这个有些讲究，特别在windows系统，几个月前是不需要如此操心的，现在不同了，具体如下，到[github的openzeppelin](https://github.com/OpenZeppelin/openzeppelin-contracts)上去，下载并解压openzeppelin-solidity， 然后新建一个叫做'node_modules'的目录，把这个目录名放到windows的path环境变量里去；
-
-
-
-
-
-第五步，编译和部署两个智能合约，分别到稳定币合约和中介合约的根目录下，执行： truffle compile 的编译过程，这是把.sol的文件转化成字节码和生成ABI(Application Binary Interface)的工具，这个编译器的版本可以在truffle-config.js中配置。 
-
-
-
-编译之后就是部署(deploy)智能合约到区块链上，具体部署到哪条链上，这个是由truffle-config.js配置，我是部署到ganache上去。
-
-
-到ganache上把两个合约配置文件都放到workspace中，这样看起来更直观：
+For the sake of visualization, we can go to ganache and set truffle-config.js of both contracts to its workspace: 
 ![](https://cdn.steemitimages.com/DQmckCpSZnwbJhXRe12L4iGUvwVYjBr3mjm6L8VzBXLYk3s/image.png)
 
 
-分别运行每个合约的 truffle migrate 就可以了。记住稳定币的'contract address' 是'0x0018204bBFf3A1477a79023757B0175D5ad8f4A5'，这个在接下来的测试时候需要用到。
+run this command to deploy:
+
+`truffle migrate`
+
+
+
+
+
+Take note of 'contract address' of stable coin contract after deployment, we need to use it afterwards. It is '0x0018204bBFf3A1477a79023757B0175D5ad8f4A5' for this stable coin contract in ganache.
 
 ![](https://cdn.steemitimages.com/DQmQdsG9ZJhx26zJF3c6mLA734u4dUwn9e5Bkbwxz2toVru/image.png)
 
 
-在模拟区块链上看到已经部署了稳定币了。
+We can see the stable coin contract has been successfully deployed in ganache:
 ![](https://cdn.steemitimages.com/DQmcGHVR9tnnJ4Emri37btqaJ2uC3V8KcGsU7tBA1StGu2o/image.png)
 
 
 
-
-第五步，怎么证明这个合约好使呢，写个界面来证实它？ 那多麻烦啊，写界面可不是我的擅长，我本来还想找我一个同事帮着写，可惜他最近太忙了，我们就要谈谈最
-
-
-尽管如此，我还是要谈谈测试的事情，其实测试是非常重要的东西，测试的思想贯穿于整个开发过程中，这就是传统瀑布式开发和现在流行的agile模式的本质区别，也是test engineer 和Quality Assurance Engineer的本质区别。 在做这个智能合约的时候，就要想到以后应该如何测试，用户会如何使用，我觉得有个说法很有道理'put myself in your shoes'，或者叫'同理心'。 
+Step 5: I was wondering how to validate this agent contract. It will be troublesome to write a UI and I am not good at UI. I was thinking of ask one of my friends to do this for me but he is too busy. So I have to do it myself. Fortunately, Truffle has a test framework similar to Mocha. I would use this framework to test my contract.
 
 
 
-测试设计了三个以太账户，一个账户发出买单或者卖单，另外两个用户去take orders，并且把数字货币（或者实物）给发出订单的用户并且得到确认。 然后在设计的时候，需要认真考虑到如何hack这个合约。 我想另外发一篇文章来结合这个项目谈谈我的看法。 公链上智能合约的一个最大问题就是如何防止被黑。 
+Test is very important to the software development process, to guarantee the quality. The idea of test goes throught all the SDLC ( Software Development Lifecycle), which is the core difference between traditional waterfall and nowadays agile, also the key to distinguish the role of test engineer and quality assurance engineer. When I was developing this contract, I was thinking how to test it as clients, we need to 'put myself in your shoes', or 'compassion'. 
 
-测试文件写好后，测试过程很简单， 把'TestAgent'文件里买卖两个地方的稳定币地址改掉：
+
+I designed three ethereum accounts, one is for sending orders, another two are for taking orders. In addition, we need to consider carefully how to hack this contract if we were a hacker. I will talk about this in another post. One of the most important thing in public blockchain is how to prevent being hacked especially your contract is about money.
+
+
+
+The testing process is rather simple compared with writing the script, amending two places about the stable coin contract addresses in the test script like this: 
+
 var USDC_ADDRESS = '0x0018204bBFf3A1477a79023757B0175D5ad8f4A5';
 
 
-然后运行测试： truffle test
+Then run:
+
+`truffle test`
+
 ![](https://cdn.steemitimages.com/DQmPCeWY2WoNSxcda8G7LKYHhFvuUAEUR5g1Bk71DWKXvJ3/image.png)
 
 
-我们可以看到测试通过。 其实在做的时候并没有这么简单，测试过程需要跟调试过程反复进行，truffle framework提供非常好的调试工具，调试最大的麻烦在于transaction hash的寻找，所以最好设个断点，这样不会产生太多transaction让人头晕目眩。 
+The test cases passed. It looks simple, right? But it wasn't so as I debugged during the test process. Truffle framework provides very good debug tool, the only annoying thing is to find a suitable transaction hash, so it is better to set a breakpoint, so you won't be dizzy with too many transactions.
 
 
 
+Related topics:
 
 
-更多区块链文章：
+- [Using smart contract to kick off OTC platform](http://engineerman.club/2018/12/30/Using-smart-contract-to-kick-off-OTC-platform/)
 
-- [智能合约代替OTC市场](http://livinginau.life/2019/12/10/%E6%99%BA%E8%83%BD%E5%90%88%E7%BA%A6%E4%BB%A3%E6%9B%BFotc%E5%B8%82%E5%9C%BA/)
+- [cryptocurrency exchanges integration trading system](http://engineerman.club/2018/12/06/cryptocurrency-exchanges-integration-trading-system/)
 
-- 
-  [makeDAO 的 PETH](http://livinginau.life/2019/11/16/makeDAO_peth/)
+- [Stable Coins](http://engineerman.club/2018/12/06/Stable-Coins/)
 
+- [Decentralized Trading System for people to trade crypto without account](http://engineerman.club/2018/12/06/Decentralized-Trading-System-for-people-to-trade-crypto-without-account/)
 
-- 
-  [对比特比共识机制的一些看法（my opinions on the consensus mechanism of Bitcoin )](http://livinginau.life/2019/03/05/%E5%AF%B9%E6%AF%94%E7%89%B9%E6%AF%94%E5%85%B1%E8%AF%86%E6%9C%BA%E5%88%B6%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9C%8B%E6%B3%95/)
+- [comparison several crypto exchanges according to my own experience](http://engineerman.club/2017/12/05/comparison-several-crypto-exchanges-according-to-my-own-experience/)
 
-- 
-  [怎么样才能当上steem的矿工](http://livinginau.life/2018/10/20/%E6%80%8E%E4%B9%88%E6%A0%B7%E6%89%8D%E8%83%BD%E5%BD%93%E4%B8%8Asteem%E7%9A%84%E7%9F%BF%E5%B7%A5/)
-
-- 
-  [steem做档案存储](http://livinginau.life/2018/10/20/steem-%E5%81%9A%E6%A1%A3%E6%A1%88%E5%AD%98%E5%82%A8/)
-
-- 
-  [看yoyow白皮书随感](http://livinginau.life/2018/01/16/%E7%9C%8Byoyow%E7%99%BD%E7%9A%AE%E4%B9%A6%E9%9A%8F%E6%84%9F/)
-
-- 
-  [SMTs 白皮书读后感之一统天下](http://livinginau.life/2017/12/06/SMTs-%E7%99%BD%E7%9A%AE%E4%B9%A6%E8%AF%BB%E5%90%8E%E6%84%9F%E4%B9%8B%E4%B8%80%E7%BB%9F%E5%A4%A9%E4%B8%8B/)
-
-- 
-  [非对称加密解密的理解](http://livinginau.life/2017/12/05/%E9%9D%9E%E5%AF%B9%E7%A7%B0%E5%8A%A0%E5%AF%86%E8%A7%A3%E5%AF%86%E7%9A%84%E7%90%86%E8%A7%A3/)
-
-- 
-  [How to prevent DPOS being abused (如何防止DPOS 机制被滥用)](http://livinginau.life/2017/12/05/%E5%A6%82%E4%BD%95%E9%98%B2%E6%AD%A2DPOS-%E6%9C%BA%E5%88%B6%E8%A2%AB%E6%BB%A5%E7%94%A8/)
-
-- 
-  [在以太坊下搭建了私有链](http://livinginau.life/2017/12/05/%E5%9C%A8%E4%BB%A5%E5%A4%AA%E5%9D%8A%E4%B8%8B%E6%90%AD%E5%BB%BA%E4%BA%86%E7%A7%81%E6%9C%89%E9%93%BE/)
-
-- 
-  [Ethereum 和 Ethereum Classic](http://livinginau.life/2017/12/05/Ethereum-%E5%92%8C-Ethereum-Classic/)
-
-- 
-  [BTS初用感受](http://livinginau.life/2017/12/05/BTS%E5%88%9D%E7%94%A8%E6%84%9F%E5%8F%97/)
-
-- [SBD如何锚定美元](http://livinginau.life/2017/10/05/sbd-peg-to-usd/)
 
 
 
