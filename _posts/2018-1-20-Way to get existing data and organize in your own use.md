@@ -21,7 +21,7 @@ As an individual investor in Australia stock market who want to establish your o
 
    2. [How to get delayed real time price directly from ASX.](http://engineerman.club/2018/01/22/get-delayed-price-directly-from-ASX/)
 
-   3. [Build a restful API service with flask,gunicorn and nginx.](http://engineerman.club/2018/11/16/build-a-rest-API-service-to-provide-market-data-for-yourself/) 
+   3. [Build a restful API service with flask,gunicorn and nginx.](http://engineerman.club/2020/01/12/build-a-rest-API-service-to-provide-market-data-for-yourself/) 
 
    4. [Create an instance in aws for free.](http://engineerman.club/2018/11/16/create-an-instance-in-aws-for-free/)
 
