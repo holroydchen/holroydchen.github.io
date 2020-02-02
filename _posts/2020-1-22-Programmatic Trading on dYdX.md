@@ -75,3 +75,20 @@ After this trade, your dYdX balances are: 20 ETH, -1900 DAI. You’re now levera
 
 
 [Link](https://medium.com/dydxderivatives/programatic-trading-on-dydx-4c74b8e86d88) to the original article.
+
+
+
+Related topics:
+
+
+- [Using smart contract to kick off OTC platform](http://engineerman.club/2018/12/30/Using-smart-contract-to-kick-off-OTC-platform/)
+
+- [cryptocurrency exchanges integration trading system](http://engineerman.club/2018/12/06/cryptocurrency-exchanges-integration-trading-system/)
+
+- [Stable Coins](http://engineerman.club/2018/12/06/Stable-Coins/)
+
+- [Decentralized Trading System for people to trade crypto without account](http://engineerman.club/2018/12/06/Decentralized-Trading-System-for-people-to-trade-crypto-without-account/)
+
+- [comparison several crypto exchanges according to my own experience](http://engineerman.club/2017/12/05/comparison-several-crypto-exchanges-according-to-my-own-experience/)
+
+- [Lending and Borrowing in Crypto Market](http://engineerman.club/2020/02/02/NFT-Valuation/)

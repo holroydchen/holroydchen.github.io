@@ -88,3 +88,5 @@ Related topics:
 - [Decentralized Trading System for people to trade crypto without account](http://engineerman.club/2018/12/06/Decentralized-Trading-System-for-people-to-trade-crypto-without-account/)
 
 - [comparison several crypto exchanges according to my own experience](http://engineerman.club/2017/12/05/comparison-several-crypto-exchanges-according-to-my-own-experience/)
+
+- [Programmatic Trading on dYdX](http://engineerman.club/2020/02/02/Programmatic-Trading-on-dYdX/)
