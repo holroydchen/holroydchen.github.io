@@ -12,11 +12,14 @@ tags:
     - DeFi
 ---
 
+
 DeFi is an interesting topic in blockchain world and possibly the most useful area we should apply blockchain technology to, I found this valuable article published in 2019-8-26 to help us enter into this profitable world.
 
 **DeFi Applications in the Traditional Crypto Ecosystem**
 
 DeFi (Decentralized finance) has made immense strides in “traditional” crypto markets (I can’t believe I’m writing “traditional” crypto markets) in just a few years. A host of applications have been built and are widely used in the space. MakerDAO allows the creation of loans without a bank and provides DAI, a decentralized cryptoasset that is pegged to the US dollar. dYdX created an innovative and effective method of lending, borrowing, and margin trading cryptoassets. Decentralized exchanges, like Uniswap, have burst onto the DeFi scene to allow users to safely and seamlessly trade ERC20 based cryptoassets. Within the borrowing and lending ecosystem, Dharma and Compound are both popular DeFi protocols. These applications allow you to send specific cryptoassets to their smart contracts and earn returns based on the market rate. With all of these incredible decentralized financial products, it is no surprise the traditional cryptoasset market is huge: the current market cap is ~$250 billion (August 2019).
+
+
 
 
 **DeFi Applications in the NFT Ecosystem**
