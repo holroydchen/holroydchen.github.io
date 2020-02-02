@@ -3,7 +3,7 @@ layout:     post
 title:      Lending and Borrowing: Putting Non-Fungible Assets to Work
 subtitle:   
 date:       2020-2-2
-author:     Andrew Steinwold
+author:     Howard
 header-img: img/post_blockchain.jpg
 catalog: true
 tags:
@@ -71,7 +71,8 @@ An NFT leasing market would help discover the fair value of NFTs in a similar wa
 **Conclusion**
 
 We will see a massive increase in market activity and useability by unleashing the power of DeFi applications in the NFT space. NFT loan and leasing marketplaces will allow users to earn passive income and, more importantly, will lead to more accurate valuations of these assets. We are currently in the Friendster-era of NFTs, but we can get closer to the MySpace-era by taking traditional crypto market builds and modifying them for NFTs. Once NFTs have millions of users, a robust and highly liquid marketplace, we can finally enter the Facebook-era where the user-experience is seamless. The first step is to continue building and adopt traditional crypto ecosystem use-cases for the NFT ecosystem.
-Follow me on Twitter if you want to stay updated with more fun blog posts!
+
+[Link](https://medium.com/@Andrew.Steinwold/nft-valuation-lending-borrowing-putting-non-fungible-assets-to-work-ce92c61bad50) to the original article.
 
 
 
