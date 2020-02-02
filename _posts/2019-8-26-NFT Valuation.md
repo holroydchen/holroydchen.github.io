@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Lending & Borrowing: Putting Non-Fungible Assets to Work
+title:      Lending and Borrowing: Putting Non-Fungible Assets to Work
 subtitle:   
 date:       2020-2-2
 author:     Andrew Steinwold
