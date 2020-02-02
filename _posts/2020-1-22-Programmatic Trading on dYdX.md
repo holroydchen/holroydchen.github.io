@@ -64,17 +64,15 @@ Now that you have your Ethereum account let’s use it to deposit some funds int
 
 
 <iframe src="https://medium.com/media/0c1bf73562c4056c5c68690ca723d9c9" allowfullscreen="" frameborder="0" height="694" width="680" title="dydx_programatic_trading_2.py" class="eo t u id ak" scrolling="auto" style="box-sizing: inherit; top: 0px; left: 0px; width: 680px; position: absolute; height: 694px;"></iframe>
-
 On the my_balances variable, you’ll notice that your balances are organized by market ID. Each asset on dYdX has a specific ID: ETH = 0, USDC = 2, DAI = 3. Each balance has two parts: par and wei. wei is the one that represents your actual balance.
 
 Now you’ve deposited funds into your dYdX account, let’s place your first trade! Remember, on dYdX you don’t actually need to have the funds you’re trading away — you’ll automatically borrow them provided you have enough collateral in your account. To illustrate this, let’s buy 10 more ETH for 2000 DAI (more than the 100 DAI you had deposited):
 
 <iframe src="https://medium.com/media/b0ec7bb96e297dccc60501bade2e981f" allowfullscreen="" frameborder="0" height="193" width="680" title="dydx_programatic_trading_3.py" class="eo t u id ak" scrolling="auto" style="box-sizing: inherit; top: 0px; left: 0px; width: 680px; position: absolute; height: 193px;"></iframe>
-
 That’s it! Your order will automatically execute if it crosses an existing order on the orderbook, otherwise your will be placed on the orderbook and will wait to be filled by other takers.
 
 After this trade, your dYdX balances are: 20 ETH, -1900 DAI. You’re now leveraged long ETH by borrowing DAI!
 
 
 
-Link to the original article: https://medium.com/dydxderivatives/programatic-trading-on-dydx-4c74b8e86d88
+[Link](https://medium.com/dydxderivatives/programatic-trading-on-dydx-4c74b8e86d88) to the original article.
