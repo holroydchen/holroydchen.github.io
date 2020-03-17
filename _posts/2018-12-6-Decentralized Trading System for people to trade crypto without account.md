@@ -5,10 +5,11 @@ subtitle:
 date:       2018-12-6
 author:     Howard
 header-img: img/post_blockchain.jpg
-catalog: true
+catalog: false
 tags:
     - blockchain
     - cryptocurrency
+    - ethereum
 ---
 
 After I presented the 'crypto exchanges integration' in hackathon in my company,  lots of colleagues asked me how to sign up in any exchanges, how to pick up exchanges, they have no idea how to buy and sell cryptocurrencies.  Some colleagues are  professional at trading in the market, but they feel sucks due to the low liquidity in current cryptocurrency market.  After talking with some brokers, actually none of those traditional brokers are likely to take this system due to unclear regulations.

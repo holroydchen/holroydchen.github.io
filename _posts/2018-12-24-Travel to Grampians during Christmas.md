@@ -5,7 +5,7 @@ subtitle:
 date:       2018-12-24
 author:     Howard
 header-img: img/post_western_coast_usa.jpg
-catalog: true
+catalog: false
 tags:
     - travel
 ---

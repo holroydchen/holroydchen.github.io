@@ -5,10 +5,9 @@ subtitle:
 date:       2017-10-11
 author:     Howard
 header-img: img/post_western_coast_usa.jpg
-catalog: true
+catalog: false
 tags:
     - travel
-    - life
 ---
 
 From 15, Dec, 2017 to 15, April, 2018, it is free to visit the culture exhibition in National Gallery of Victoria. The exhibition covers items and masterpieces  from different countries, such as China, Japan,  France, Greece, Rome.  It not only have my familiar Asian cultures, such as Chinese handwriting, Japan tea and bamboo, Indian Budda statues, but also shows many portraits decribing some famous western stories I loved from my childhood, such as  the beauty Helen in Troy war, the ten commandments in the old testimony in Bible, the  Odysseus and siren, the Waterloo War between France and Britain. It would take at least three days to go through all the displayed items.

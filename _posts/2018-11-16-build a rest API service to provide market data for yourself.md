@@ -5,9 +5,8 @@ subtitle:
 date:       2020-1-12
 author:     Howard
 header-img: img/post-bg-unix-linux.jpg
-catalog: true
+catalog: false
 tags:
-    - engineer
     - aws
     - restful
     - flask

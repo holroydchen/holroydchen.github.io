@@ -5,12 +5,11 @@ subtitle:
 date:       2018-1-18
 author:     Howard
 header-img: img/post-bg-unix-linux.jpg
-catalog: true
+catalog: false
 tags:
-    - engineer
     - python
     - pandas
-    - data
+    - data mining
 ---
 
 I decided to provide this API service in the long run to help people like me used to struggle for financial data when trying to establish their own models. So as an investor and engineer, I will provide more data in the future according to your feedback and my own experience. This is some simple guide how to leverage it.

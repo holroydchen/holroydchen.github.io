@@ -5,9 +5,11 @@ subtitle:
 date:       2018-12-5
 author:     Howard
 header-img: img/post_blockchain.jpg
-catalog: true
+catalog: false
 tags:
     - blockchain
+    - steem
+    - news
 ---
 
 On May 17, the CCID Research Institute of the Ministry of Industry and Information Technology officially released the first global public-block chain technology evaluation index and ranking. The results show that the typical representative of the second-generation blockchain technology is Ethereum's technology assessment index with a smart contract function of 129.4, ranking first in the assessment list. The following  blockchains are ranked second to fifth and they are Steem, Lisk, NEO and Komodo. Bitcoin, which has received much attention from the industry, ranks only 13th.

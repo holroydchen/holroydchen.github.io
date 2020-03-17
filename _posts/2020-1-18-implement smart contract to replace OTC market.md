@@ -5,9 +5,10 @@ subtitle:
 date:       2020-1-18
 author:     Howard Chen
 header-img: img/post_smart_contract.jpg
-catalog: true
+catalog: false
 tags:
     - blockchain
+    - smart contract
 ---
 
 Diving into the blockchain technology for a long time, in my opinion, the most attractive and powerful aspect of the blockchain is the smart contract which can overthrow traditional centralized system.  I always imagine smart contract as a trustless and reliable agent which can be a substitute of most agents in the real world.  I once had a picture in my mind that we can use smart contract as an intermediate to exchange cryptocurrencies among buyers and sellers, which is something like Paypal and Alipay. In my mind, a purchaser sends out an order to buy some cryptocurrencies, this order will be taken by some sellers. The purchasers's stable coins will be deposited into the smart contract and they will be released to the sellers when purchaser confirms cryptocurrencies to buy have been received.  In case a person wants to sell cryptocurrencies, he/she sends out an sell order. When a buyer want to take this order, his/her stable coins will be deposited to the smart contract. After the buyer confirms she/he has received the amount of cryptocurrencies, the stable coins will be released to the seller's eth account.

@@ -5,9 +5,8 @@ subtitle:
 date:       2019-1-16
 author:     Howard
 header-img: img/post_fly_to_au.jpg
-catalog: true
+catalog: false
 tags:
-    - engineer
     - ubuntu
 ---
 

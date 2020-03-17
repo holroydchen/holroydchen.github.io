@@ -5,9 +5,9 @@ subtitle:
 date:       2018-7-10
 author:     Howard
 header-img: img/post_au_stamp.jpg
-catalog: true
+catalog: false
 tags:
-    - life
+    - culture
 ---
 
 Stories behind stamps---Australian aboriginal culture

@@ -5,9 +5,8 @@ subtitle:
 date:       2018-12-19
 author:     Howard
 header-img: img/post_chinese_food.jpg
-catalog: true
+catalog: false
 tags:
-    - life
     - food
 ---
 

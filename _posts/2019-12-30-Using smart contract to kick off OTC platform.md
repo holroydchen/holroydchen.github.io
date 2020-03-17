@@ -5,10 +5,11 @@ subtitle:
 date:       2018-12-30
 author:     Howard
 header-img: img/post_blockchain.jpg
-catalog: true
+catalog: false
 tags:
     - blockchain
-    - cryptocurrency
+    - ethereum
+    - smart contract
 ---
 
 There are some OTC cryptocurrency trading platform,  OTCBTC, local coin,  they have the same in common, what is the centralized platform acts as a escrow,  when you want to buy some bitcoins,  you need to place an advertisement, then somebody see your ads, they will take the order and deposit amount of bitcoin to the platform.  After the taker receives fiat  from the buyer and once this is confirmed by the taker, or the time expires, the platform will automatically release bitcoin or get instruction from the taker to release bitcoin to the buyer.

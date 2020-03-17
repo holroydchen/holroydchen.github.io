@@ -5,7 +5,7 @@ subtitle:
 date:       2019-1-20
 author:     Howard
 header-img: img/post-bg-unix-linux.jpg
-catalog: true
+catalog: false
 tags:
     - ubundu
 ---

@@ -5,12 +5,11 @@ subtitle:
 date:       2018-1-20
 author:     Howard
 header-img: img/post-bg-unix-linux.jpg
-catalog: true
+catalog: false
 tags:
-    - engineer
     - python
     - pandas
-    - data
+    - data mining
     - aws
 ---
 

@@ -5,7 +5,7 @@ subtitle:
 date:       2020-2-2
 author:     Howard
 header-img: img/post_blockchain.jpg
-catalog: true
+catalog: false
 tags:
     - blockchain
     - cryptocurrency

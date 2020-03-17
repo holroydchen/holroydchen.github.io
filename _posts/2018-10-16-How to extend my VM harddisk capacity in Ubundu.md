@@ -5,9 +5,8 @@ subtitle:
 date:       2018-10-16
 author:     Howard
 header-img: img/post-bg-unix-linux.jpg
-catalog: true
+catalog: false
 tags:
-    - engineer
     - ubundu
 ---
 

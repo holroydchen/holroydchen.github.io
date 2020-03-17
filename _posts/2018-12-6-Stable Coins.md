@@ -5,10 +5,11 @@ subtitle:
 date:       2018-12-6
 author:     Howard
 header-img: img/post_blockchain.jpg
-catalog: true
+catalog: false
 tags:
     - blockchain
     - cryptocurrency
+    - ethereum
 ---
 
 I did research on lots of stable coins recently. They can be categorized into three groups: 

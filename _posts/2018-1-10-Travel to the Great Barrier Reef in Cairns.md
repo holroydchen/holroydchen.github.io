@@ -5,9 +5,8 @@ subtitle:
 date:       2018-1-10
 author:     Howard
 header-img: img/post-bg-map.jpg
-catalog: true
+catalog: false
 tags:
-    - life
     - travel
 ---
 

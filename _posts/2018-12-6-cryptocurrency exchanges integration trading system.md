@@ -5,9 +5,8 @@ subtitle:
 date:       2018-12-6
 author:     Howard
 header-img: img/post_blockchain.jpg
-catalog: true
+catalog: false
 tags:
-    - blockchain
     - cryptocurrency
 ---
 

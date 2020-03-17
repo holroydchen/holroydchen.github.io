@@ -5,9 +5,10 @@ subtitle:
 date:       2018-12-5
 author:     Howard
 header-img: img/post_blockchain.jpg
-catalog: true
+catalog: false
 tags:
     - blockchain
+    - bitshare
 ---
 
 As we know, Bitshares is a decentralized cryptocurrency exchange.   It has some gateways to exchange with external market.  Whenever you want to transfer in or out coins with those centralized exchange, you need to navigate to this page:

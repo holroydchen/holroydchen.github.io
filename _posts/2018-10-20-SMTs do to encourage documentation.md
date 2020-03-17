@@ -5,9 +5,10 @@ subtitle:
 date:       2018-10-20
 author:     Howard
 header-img: img/post_Steemit_logo_1200.jpg
-catalog: true
+catalog: false
 tags:
     - blockchain
+    - steem
 ---
 
 ![](https://steemitimages.com/DQmWnXvPUS1kdggw2Sra3ojQRvwbUwKQFmWFEmkyFMaBRxj/image.png)

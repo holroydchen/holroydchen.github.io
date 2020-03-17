@@ -5,10 +5,10 @@ subtitle:
 date:       2017-12-18
 author:     Howard
 header-img: img/post-bg-map.jpg
-catalog: true
+catalog: false
 tags:
     - python
-    - data
+    - data mining
 ---
 
 

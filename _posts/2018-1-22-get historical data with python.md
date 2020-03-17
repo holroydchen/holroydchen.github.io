@@ -5,12 +5,11 @@ subtitle:
 date:       2018-1-22
 author:     Howard
 header-img: img/post-bg-unix-linux.jpg
-catalog: true
+catalog: false
 tags:
-    - engineer
     - python
     - pandas
-    - data
+    - data mining
 ---
 
 When we want share prices, the first thing we may ask ourselves: how many companies are listed in ASX?  Here is what we can see in ASX official website:

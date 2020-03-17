@@ -5,12 +5,11 @@ subtitle:
 date:       2019-1-17
 author:     Howard
 header-img: img/post-bg-unix-linux.jpg
-catalog: true
+catalog: false
 tags:
-    - engineer
     - python
     - pandas
-    - data
+    - data mining
 ---
 
 In this post, I am going to pick up those companies whose share price increased at least 10%. I will figured out the percentage of these companies in their own industries. 
