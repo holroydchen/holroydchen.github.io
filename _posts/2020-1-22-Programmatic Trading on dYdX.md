@@ -92,3 +92,5 @@ Related topics:
 - [comparison several crypto exchanges according to my own experience](http://engineerman.club/2017/12/05/comparison-several-crypto-exchanges-according-to-my-own-experience/)
 
 - [Lending and Borrowing in Crypto Market](http://engineerman.club/2020/02/02/NFT-Valuation/)
+
+- [In a first, MakerDAO protocol to auction MKR tokens to cover $4M bad debt](http://engineerman.club/2020/03/18/MakerDAO-protocol-to-auction-MKR-tokens-to-cover-$4M-bad-debt/)
