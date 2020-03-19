@@ -22,6 +22,8 @@ The boom of the steem price might due to the airdrop of the new coin based on hi
 The launch of the new blockchain will be tomorrow. There still are lots of issues to consider, e.g. what about the existing voting bots? There are lots of voting bots in steemit, but how to make these bots work in the new chain?  How to trade the new coin? Is there any way to exchange new coin with old steem? We will look and see what will be happening after tommorrow. 
 
 
+[Chinese version](https://steemit.com/cn-reader/@chenlocus/steem-hive-steem-price-jumped-due-to-hard-forked-hive)
+
 Related topics:
 
 
