@@ -13,7 +13,7 @@ tags:
 ---
 
 
-I has ceased the market data service for now. However, ASX does has free API to obtain delayed realtime price.
+In the [previous post](http://engineerman.club/2018/01/20/Way-to-get-existing-data-and-organize-in-your-own-use/), we talked about [a substitute for yahoo finance API](http://engineerman.club/2018/01/20/Way-to-get-existing-data-and-organize-in-your-own-use/)  which was offline years ago.  Most people want some 'real time' market data for their own investment model, 'real time' data is not cheap, the good thing is most people just want delayed data. Fortunately, ASX has  a free API to obtain delayed realtime price.
 
 
 e.g.

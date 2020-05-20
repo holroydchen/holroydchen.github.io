@@ -12,10 +12,6 @@ tags:
     - data mining
 ---
 
-
-
-
-
 In the [previous post](http://engineerman.club/2018/01/20/Way-to-get-existing-data-and-organize-in-your-own-use/), we talked about [a substitute for yahoo finance API](http://engineerman.club/2018/01/20/Way-to-get-existing-data-and-organize-in-your-own-use/)  which was offline years ago.  In this post, I would like to explain how to crawl data from yahoo finance and after filtering duplicated, blanked data then dispatch them to categorized .csv files.  I would describe how to make it work with my existing python scripts then explain the details of some of the key codes. 
 
 
@@ -183,10 +179,8 @@ try:
     browser.quit()
 ```
 
-'browser.close()' and 'browser.quit()' are very import after each time scraping data since they will actually purify the memory for the next run.  I have tried using the 'close' only, but after tens of run, the memory will be exhausted thus the whole application stuck. It looks only after I 'quit' the PhantomJS, it can  
+'browser.close()' and 'browser.quit()' are very import after each time scraping data since they will actually purify the memory for the next run.  I have tried using the 'close' only, but after tens of run, the memory will be exhausted thus the whole application stuck. It looks only after I 'quit' the PhantomJS, it can actually release memories, so this is very important to let the application run a long time to scrape all financial data from yahoo finance.
     
-
-
 
 
 
@@ -194,31 +188,51 @@ The format and location of the historical data file to be exported is defined in
 
 `DAILY_PRICE_FILE = 'data/daily/%s_price.csv'`
 
-
-
 So if the symbol name is 'Z1P', the file will be located in data/daily and the file name will be 'Z1P_price.csv'.
 
+cons.py is an important file defining where to scrape data and where to save:
+
+```
+ASXLIST_FILE_NAME = './data/ASXlistcodes.csv'
+ASXLIST_FILE = 'https://www.asx.com.au/asx/research/ASXListedCompanies.csv'
+INCOME_ANNUAL_REPORT = 'https://finance.yahoo.com/quote/%s.AX/financials?p=%s.AX'
+BALANCE_SHEET_ANNUAL_REPORT = 'https://au.finance.yahoo.com/quote/%s.AX/balance-sheet?p=%s.AX'
+CASH_FLOW_ANNUAL_REPORT = 'https://au.finance.yahoo.com/quote/%s.AX/cash-flow?p=%s.AX'
+WEEKLY_PRICE ='https://au.finance.yahoo.com/quote/%s.AX/history?period1=%d&period2=%d&interval=1wk&filter=history&frequency=1wk'
+PERSHARE_FINANCIAL_INFO ='https://www.investsmart.com.au/shares/asx-%s/%s/financials'
+STATISTICS_INFO = 'https://au.finance.yahoo.com/quote/%s.AX/key-statistics?p=%s.AX'
+
+BALANCE_SHEET_FILE = 'data/financial/%s_balance.csv'
+REVENUE_FILE = 'data/financial/%s_revenue.csv'
+CASHFLOW_FILE = 'data/financial/%s_cashflow.csv'
+DELIST_FILE = 'data/ASXDelistcodes.csv'
+WEEKLY_PRICE_FILE = 'data/weekly/%s_price.csv'
+DAILY_PRICE_FILE = 'data/daily/%s_price.csv'
+```
 
 
-Some people ( like me ) prefer to analyze share market using fundamental financial report, to catch balance sheet,  annual revenue report and cash flow, you need to run these python scripts with jupyter notebook ( to install jupyter you can go here: http://jupyter.org/ ):
 
+Some people ( like me ) prefer to analyze share market using fundamental financial report, to catch balance sheet,  annual revenue report and cash flow, you need to run these python scripts with [jupyter notebook](http://jupyter.org/).
+
+```
 ASXDataScrapBalance.ipynb
 
 ASXDataScrapRevenue.ipynb
 
 ASXDateScrapCashflow.ipynb
+```
 
 
 
-The mechanism of these scripts are almost the same as ASXScrapShareDailyPrice, but much simpler. 
+The mechanism of these scripts are almost the same as `ASXScrapShareDailyPrice`, but much simpler. 
 
 
 
-Please note: don't use threadpool in downloading data, this can overwhelm the server and you will be given an error code 429 or even IP ban. 
+Please note: don't use `threadpool` in downloading data, this can overwhelm the server and you will be given an error code 429 or even IP ban. 
 
 
 
-
+Finally,  you need to [schedule regular tasks](http://engineerman.club/2018/11/16/Schedule-regular-tasks-in-AWS/) in your own computer or aws to download data for further restful API usage. 
 
 
 
